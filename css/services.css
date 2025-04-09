@@ -1,0 +1,306 @@
+.animated-text {
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    animation: shadow-pulse 2s infinite;
+    /* Adjust the colors and values for your preference */
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+  .animated-text span {
+    font-weight: bold;
+    /* Adjust the color or style for the span if needed */
+    color: #ff6347;
+  }
+  
+  @keyframes shadow-pulse {
+    0% {
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+    50% {
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+    }
+    100% {
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+  }
+  
+
+  /* Adjust styles as needed */
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-image-container {
+  flex: 1;
+  margin-right: 20px; /* Adjust the spacing between image and text */
+}
+
+.custom-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-text-container {
+  flex: 2;
+}
+
+
+
+/* Adjust styles as needed */
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-text-container,
+.custom-image-container {
+  flex: 1;
+}
+
+.custom-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* carriers */
+
+
+
+/* To style the box for each category */
+.cat-item {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow to the box */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition for smooth animation */
+}
+
+.cat-item:hover {
+  transform: translateY(-5px);
+  /* Add a hover effect */
+}
+
+/* To limit each row to contain 4 categories */
+.col-lg-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+/* To display categories in two rows */
+.row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+/* To add margin between categories */
+.col-lg-3 {
+  padding: 0 10px;
+}
+
+/* To make the category images slightly larger */
+.category-img {
+  width: 80px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.cat-item:hover {
+  transform: scale(1.08); /* Enlarging the box on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adjusted shadow on hover */
+}
+
+/* To center the heading */
+h1.text-center {
+  text-align: center !important;
+}
+.cat-item h6 {
+  margin-bottom: 15px;
+}
+
+.cat-item h6.red-heading {
+  color: red; /* Changing text color to red */
+  font-size: 24px; /* Adjusting the font size */
+}
+
+.section-subtitle1 {
+  text-align: center; /* Align text to the center */
+  font-size: 34px; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  color: red; /* Set the text color to red */
+}
+.cat-item h6.mb-3 {
+  font-size: 15px; /* Increase the font size */
+  color: rgb(27, 25, 25); /* Change text color to red */
+  white-space: nowrap;
+}
+
+.cat-item:hover p.mb-0 {
+  color: rgb(247, 42, 6); /* Change text color to blue on hover */
+}
+
+
+
+
+/* Form Styles */
+/* Generic form styles */
+.form-section {
+  margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select,
+input[type="file"],
+button[type="submit"] {
+  width: calc(100% - 6px);
+  padding: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px; /* Adjust button padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Centering the form */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+form {
+  left: 50%; /* Adjust the left position */
+  transform: translateX(40%);
+  width: 80%;
+  width: 80%;
+  max-width: 700px;
+  max-height: 500;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+ 
+}
+
+
+/** different services  **/
+
+
+.key-offerings ul {
+  padding: 0; /* Resets padding */
+  margin: 0; /* Resets margin */
+}
+
+.key-offerings ul li {
+  
+  padding-left: 20px; /* Adds space for custom bullet point */
+  position: relative; /* Allows absolute positioning of custom bullet */
+  margin-bottom: 5px; /* Adjust spacing between list items */
+}
+
+.key-offerings ul li:before {
+  content: ''; /* Empty content for pseudo-element */
+  width: 8px; /* Width of the custom bullet */
+  height: 8px; /* Height of the custom bullet */
+  background-color: #1e1e1e; /* Color of the custom bullet */
+  border-radius: 50%; /* Makes the custom bullet circular */
+  position: absolute; /* Positions the custom bullet */
+  left: 0; /* Adjusts the position of the bullet */
+  top: 50%; /* Adjusts the position of the bullet */
+  transform: translateY(-50%); /* Centers the bullet vertically */
+}
+
+
+/** form bdm **/
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.table {
+  width: 80%; /* Adjust the width as needed */
+  margin: auto; /* Center the table within the container */
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table th:first-child, .table td:first-child {
+  width: 20%; /* Adjust the width of the first column as needed */
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+
+
+/** yt vd ***/
+.videos-container {
+  display: flex;
+  overflow: hidden;
+  width: 200%; /* Twice the width to accommodate two videos side by side */
+  transition: transform 0.5s ease-in-out;
+}
+
+.video {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/*** CARRIERS PAGE IMAGE CHANGES ***/
+

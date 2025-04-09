@@ -1,0 +1,32 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+  
+  .table {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto; /* Center the table within the container */
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table th:first-child, .table td:first-child {
+    width: 20%; /* Adjust the width of the first column as needed */
+  }
+  
+  .table th:nth-child(2), .table td:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

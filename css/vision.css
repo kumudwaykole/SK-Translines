@@ -1,0 +1,73 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px; /* Increased box width */
+    height: 300px; /* Increased box height */
+    border: 2px solid rgb(237, 234, 234);
+    background-color: rgb(255, 253, 253);
+    margin-right: 20px;
+    position: relative;
+    animation-duration: 1s; /* Animation duration */
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Hover transition */
+    box-shadow: 0 8px 12px rgba(14, 13, 13, 0.1); /* Increased shadow size */
+}
+
+.box:hover {
+    background-color: rgb(219, 214, 214);
+    border-color: rgb(209, 205, 205);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2); /* Increased shadow size on hover */
+    width: 501px; /* Increased width on hover */
+    height: 301px; /* Increased height on hover */
+}
+
+
+.image {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image img {
+    width: 80px;
+    height: auto;
+    transition: border-color 0.3s;
+}
+
+.content {
+    text-align: center;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.box1 {
+    animation-name: slideLeft; /* Apply left slide animation to box 1 */
+}
+
+.box2 {
+    animation-name: slideRight; /* Apply right slide animation to box 2 */
+}
