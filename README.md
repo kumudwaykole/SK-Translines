@@ -1,29 +1,36 @@
 **S K Translines Website**
+
 Welcome to the SK Translines Website project!
+
 This is a modern, responsive website built using HTML, CSS, and JavaScript.
+
 The website is designed for a transportation service company to showcase their services, promote their brand, and offer customers an easy way to connect.
 
-🛠️ Technologies Used
+
+**🛠️ Technologies Used :**
+
 HTML5 — for the structure and content
 
 CSS3 — for styling and responsive layouts
 
 JavaScript — for interactivity and dynamic features
 
-🌟 Features
-Fully responsive design (mobile, tablet, desktop)
 
-Interactive navigation menu
+**🌟 Features :**
 
-Smooth scrolling and transitions
+-Fully responsive design (mobile, tablet, desktop)
 
-Service sections and company details
+-Interactive navigation menu
 
-Contact form (front-end only)
+-Smooth scrolling and transitions
 
-Basic animations to enhance user experience
+-Service sections and company details
 
-🚀 Getting Started
+-Basic animations to enhance user experience
+
+
+**🚀 Getting Started :**
+
 To view the project locally:
 
 - Clone this repository:
@@ -37,12 +44,27 @@ cd sk-translines
 
 
 - Open index.html with your browser or use a live server extension if you're using VSCode.
+  
 
-📸 Screenshots
+**📸 Screenshots :**
+
 ![image](https://github.com/user-attachments/assets/325cf9c7-5792-4751-8981-8de261187047)
 ![image](https://github.com/user-attachments/assets/010fa659-7d75-48a8-b551-9b2a4b6c51da)
 
 
-🤝 Contributing
+**🤝 Contributing :**
+
 Contributions are welcome!
+
 If you find any bugs or have suggestions for improvements, feel free to create an issue or submit a pull request.
+
+
+
+**📧 Contact & Support :**
+
+For queries, suggestions, or just to chat about magic and tech, feel free to reach out:
+
+GitHub: https://github.com/kumudwaykole
+
+Email: kumudwaykole29411@gmail.com
+
